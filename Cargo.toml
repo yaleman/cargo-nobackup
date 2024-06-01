@@ -1,0 +1,20 @@
+[package]
+name = "cargo-nobackup"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.5.4", features = ["derive"] }
+concread = "0.5.1"
+flexi_logger = "0.28.0"
+log = "0.4.21"
+mimalloc = "0.1.42"
+rayon = "1.10.0"
+shellexpand = "3.1.0"
+tokio = { version = "1.38.0", features = [
+    "macros",
+    "rt-multi-thread",
+    "fs",
+    "sync",
+    "time",
+] }
