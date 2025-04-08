@@ -11,7 +11,7 @@ log = "0.4.21"
 mimalloc = "0.1.42"
 rayon = "1.10.0"
 shellexpand = "3.1.0"
-tokio = { version = "1.38.0", features = [
+tokio = { version = "1.38.2", features = [
     "macros",
     "rt-multi-thread",
     "fs",
